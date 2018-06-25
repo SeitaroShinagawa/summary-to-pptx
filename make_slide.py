@@ -62,7 +62,7 @@ def main(args):
     pic_width = Cm(5.80)
 
     #image paste
-    img_pathes = glob("args.img_dict/*.png")
+    img_pathes = glob(args.img_dict+"/*.png")
     num = len(img_pathes)
     accum_left = 0
     for i,img_path in enumerate(img_pathes):
